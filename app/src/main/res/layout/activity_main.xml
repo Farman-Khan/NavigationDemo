@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+
+            android:text="This is basic Drawer layout. It contsins only two main ui components (e.g. layout, view, listview anything)
+            . One will be showing as layout of the activity and another is as side drawer. This is minmal requrement
+            to create navigation drawer. And android:layout_gravity=start is important to make one component as a side drawer"
+            android:textSize="26dp"
+            android:textColor="#aa0000"
+            />
+    </LinearLayout>
+
+
+
+
+
+    <ListView
+        android:id="@+id/nav_list"
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#bbcc00"
+        ></ListView>
+</android.support.v4.widget.DrawerLayout>
